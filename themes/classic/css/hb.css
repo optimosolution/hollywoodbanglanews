@@ -1,0 +1,129 @@
+a.home_top_news:link, a.home_top_news:visited{
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    line-height: 28px;
+}
+a.home_top_news:hover{
+    font-size: 20px;
+    color: #555;
+    text-decoration: none;
+}
+a.home_news:link{
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+    line-height: 25px;
+}
+a.home_news:visited{
+    font-size: 16px;
+    color: #7f0000;
+    text-decoration: none;
+}
+a.home_news:hover{
+    font-size: 16px;
+    color: #777;
+    text-decoration: none;
+}
+.marquee_news_title{
+    color: #E33625;   
+    font-size: 22px;
+}
+a.home_marquee_news:link, a.home_marquee_news:visited{
+    font-size: 16px;
+    color: #0091D6;
+    text-decoration: none;
+    line-height: 28px;
+}
+a.home_marquee_news:hover{
+    color: #DF3221;
+    text-decoration: none;
+}
+.local_main_news{
+    border-bottom: 5px solid #EC1A23;
+}
+.category_news{
+    border-bottom: 5px solid #F89406;
+}
+.hrline{
+    border-bottom: 1px solid #000;
+    height: 2px;
+    margin-bottom: 10px;
+}
+.hrline_top{
+    border-bottom: 1px double #000;
+    height: 4px;
+}
+a.local_news:link, a.local_news:visited{
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+    line-height: 35px;
+}
+a.local_news:hover{
+    font-size: 24px;
+    color: #FF0000;
+    text-decoration: none;
+}
+a.local_news2:link, a.local_news2:visited{
+    font-size: 22px;
+    color: #000;
+    text-decoration: none;
+    line-height: 30px;
+}
+a.local_news2:hover{
+    font-size: 22px;
+    color: #FF0000;
+    text-decoration: none;
+}
+.radio_pabna{
+    margin-left:15px; 
+    position: relative; 
+    top: -10px; 
+    font-weight: 800;
+}
+.new_tab_schrol{
+    height:360px;
+    overflow-y: scroll;
+}
+.chobirsongbad{
+    background-color: #FF5A01;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 2px;
+    color: #FFFFFF;
+}
+.latest_news_title{
+    font-size: 24px;
+    border-bottom: 5px solid #EAB92C;
+    margin: 20px 0px 15px 0px;
+    line-height: 35px;
+    color: #005580;
+}
+a.latest_news:link, a.latest_news:visited{
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    line-height: 35px;    
+}
+a.latest_news:hover{
+    color: #FF0000;
+    text-decoration: none;
+}
+.hr_border{
+    border-bottom: 1px dotted #777;
+    line-height: 40px;
+    padding-bottom: 5px;
+}
+div.hr_border {
+    border: none;
+    border-bottom:1px dotted #999; 
+    clear:both; 
+    height:0; 
+    width: 100%;
+    margin-bottom: 10px;
+}
+.banner_bg{
+    background: url('../images/banner_bg.png') repeat-x;
+    height: 140px;
+}

@@ -1,0 +1,119 @@
+/* Sticky footer styles - Start*/
+html,
+body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+}
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -60px;   
+}
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+    height: 60px;
+    /*width: 1170px;
+    margin: auto;*/    
+}
+#footer {
+    background-color: #FFF;
+}
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+    #footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+.container {
+    width: auto;
+}
+.container .credit {
+    margin: 10px 0;
+    text-align: center;
+}
+/* Sticky footer styles - end*/
+.news_heading{
+    font-size: 30px;
+    line-height: 30px;
+}
+.news_title{
+    font-size: 24px;
+    line-height: 30px;
+}
+.sidebar_heading{
+    font-size: 16px;
+    font-family: Georgia,"Times New Roman",Times,serif;
+}
+.news_date{
+    font-size: 14px;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    color: #666666;
+    line-height: 30px;
+    font-style: italic;
+}
+/*Facebook popup*/
+#exepopup{
+    background-color:#fff;
+    position: fixed;
+    top:50%;
+    z-index:9999;
+    display:none;
+    padding:0px;
+    left:50%;
+    border:10px solid rgba(82, 82, 82, 0.7);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    -webkit-border-radius:8px 8px 8px 8px;
+    -moz-border-radius:8px 8px 8px 8px;
+    border-radius:8px 8px 8px 8px;
+    width:400px;
+    height:360px;
+    margin-left:-200px;
+    margin-top:0px;
+    overflow:hidden;
+}
+#exepopup span{
+    font-size:20px !important;
+    font-weight:bold !important;
+}
+#exepopup h1{
+    background:#6d84b4 url(http://4.bp.blogspot.com/-wbOyGFuANTQ/UVF1F4ouC4I/AAAAAAAABiA/RX4jNlICbjM/s1600/aktechz-fb-lock.png) 98% no-repeat;
+    border:1px solid #3b5998 !important;
+    color:#FFFFFF !important;
+    font-size:20px !important;
+    font-weight:700 !important;
+    padding:5px !important;
+    margin:0 !important;
+    font-family:'"lucida grande"',tahoma,verdana,arial,sans-serif !important;overflow:hidden !important;
+}
+.exepopupdata{
+    font-size:12px !important;
+    font-weight:normal !important;
+    height:265px !important;
+    padding:1px !important;
+    background:#fff !important;
+    border-bottom:2px solid #ddd;
+    overflow:hidden !important;}
+#exepopupfooter{
+    text-align:left;
+    background:#F2F2F2 !important;
+    height:56px !important;
+}                                                                                                                                                              padding:10px 10px 10px 10px !important;overflow:hidden !important;}
+#exepopupclose{
+    float:right;background-color:#eee !important;
+    border:1px solid #ccc !important;
+    color:#111 !important;
+    font-weight:bold !important;
+    padding:5px 8px 5px 8px !important;
+    text-decoration:none !important;
+    display:inline-block !important;
+    font-family:'"lucida grande"',tahoma,verdana,arial,sans-serif !important;
+    outline:none !important;position:relative !important;
+} 
