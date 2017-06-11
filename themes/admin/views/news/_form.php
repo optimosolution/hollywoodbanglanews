@@ -23,25 +23,25 @@ $form = $this->beginWidget('bootstrap.widgets.TbActiveForm', array(
 </div>
 <?php echo $form->labelEx($model, 'introtext'); ?>
 <?php
-$this->widget('application.extensions.yii-ckeditor.CKEditorWidget', array(
-    'model' => $model,
-    'attribute' => 'introtext',
-    // editor options http://docs.ckeditor.com/#!/api/CKEDITOR.config
-    'config' => array(
-        'language' => 'en',
-    //'toolbar' => 'Basic',
-    ),
-));
+//$this->widget('application.extensions.yii-ckeditor.CKEditorWidget', array(
+//    'model' => $model,
+//    'attribute' => 'introtext',
+//    // editor options http://docs.ckeditor.com/#!/api/CKEDITOR.config
+//    'config' => array(
+//        'language' => 'en',
+//    //'toolbar' => 'Basic',
+//    ),
+//));
 ?>
 <?php
-//$this->widget(
-//        'ext.widgets.redactorjs.Redactor', array(
-//    'editorOptions' => array(
-//        'imageUpload' => Yii::app()->createAbsoluteUrl('/news/upload'),
-//        'imageGetJson' => Yii::app()->createAbsoluteUrl('/news/listimages')
-//    ),
-//    'model' => $model,
-//    'attribute' => 'introtext'));
+$this->widget(
+        'ext.widgets.redactorjs.Redactor', array(
+    'editorOptions' => array(
+        'imageUpload' => Yii::app()->createAbsoluteUrl('/news/upload'),
+        'imageGetJson' => Yii::app()->createAbsoluteUrl('/news/listimages')
+    ),
+    'model' => $model,
+    'attribute' => 'introtext'));
 ?>
 <?php /*
   $this->widget('application.extensions.tinymce.ETinyMce', array(

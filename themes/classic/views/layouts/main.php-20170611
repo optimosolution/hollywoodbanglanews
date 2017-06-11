@@ -100,11 +100,11 @@
         <div id="footer" style="height:165px; border-top:1px solid #F89406;background-color:#FFFFE3;">
             <div class="container">
                 <p class="muted credit" style="font-size:16px;color:#000;"><?php echo $this->get_menu_name(48); ?>, CEO & Publisher: Syed Abed Nipu</p>
-                <p class="muted credit" style="font-size:16px;color:#000;"><?php echo $this->get_menu_name(49); ?>, Chief Editor: Mamun Reazi</p>
-                <p class="muted credit" style="font-size:16px;color:#000;"><?php echo $this->get_menu_name(55); ?>, Managing Editor: Abdus Samad</p>
+                <?php /*<p class="muted credit" style="font-size:16px;color:#000;"><?php echo $this->get_menu_name(49); ?>, Chief Editor: Mamun Reazi</p> */?>
+                <?php /* <p class="muted credit" style="font-size:16px;color:#000;"><?php echo $this->get_menu_name(55); ?>, Managing Editor: Abdus Samad</p> */?>
                 <p class="muted credit" style="font-size:14px;color:#000;"><?php echo $this->get_menu_name(50); ?></p>
                 <p class="muted credit" style="color:#000;">E-Mail: <a href="mailto:hollywoodbangla@gmail.com">hollywoodbangla@gmail.com</a>, Hollywood , California, USA, Phone : (562) 688-1911</p>      
-                <p class="muted credit" style="color:#000;">Copyright &copy; <?php echo date('Y'); ?> <?php echo Yii::app()->params['copyrightName']; ?>. All rights reserved.</p>                 
+                <p class="muted credit" style="color:#000;">Copyright &copy; <?php echo date('Y'); ?> <?php echo Yii::app()->params['copyrightName']; ?>. All rights reserved. Website designed and developed by <?php echo CHtml::link('Optimo Solution', 'http://www.optimosolution.com', array('target' => '_blank')); ?></p>                 
             </div>
         </div>        
     </body>
